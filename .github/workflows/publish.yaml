@@ -50,9 +50,8 @@ jobs:
 #          run: |
 #            echo "$SUPER_SECRET"
       - name: Hello world action
-        with:
-          env:
-            SUPER_SECRET: ${{ secrets.SuperSecret }}
+        env:
+          SUPER_SECRET: ${{ secrets.SuperSecret }}
         run: |
           echo "$SuperSecret"
 #      - name: Install dependencies
