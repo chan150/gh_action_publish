@@ -1,6 +1,6 @@
 name: gh_action_publish
 description: gh_action_publish
-version: 0.0.1+1
+version: 0.0.1+2
 repository: https://github.com/chan150/gh_action_publish
 
 environment:
