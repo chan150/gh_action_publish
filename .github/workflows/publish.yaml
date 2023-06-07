@@ -49,7 +49,7 @@ jobs:
 #            SUPER_SECRET: ${{ secrets.SuperSecret }}
 #          run: |
 #            echo "$SUPER_SECRET"
-      - name: Hello world action
+      - name: echo SuperSecret
         env:
           SUPER_SECRET: ${{ secrets.SuperSecret }}
         run: |
