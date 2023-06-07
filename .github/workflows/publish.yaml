@@ -52,7 +52,7 @@ jobs:
       - name: cat SUPERSECRET
         env:
           SUPER_SECRET: ${{ secrets.SUPERSECRET }}
-        run: >-
+        run: |
 #          mkdir -p $HOME/.config/dart
           echo "$SUPER_SECRET" > $HOME/.config/dart/pub-credentials.json
 #          cat $HOME/.config/dart/pub-credentials.json
