@@ -49,9 +49,9 @@ jobs:
 #            SUPER_SECRET: ${{ secrets.SuperSecret }}
 #          run: |
 #            echo "$SUPER_SECRET"
-      - name: echo $SUPER_SECRET
+      - name: echo SUPERSECRET
         env:
-          SUPER_SECRET: ${{ secrets.SuperSecret }}
+          SUPER_SECRET: ${{ secrets.SUPERSECRET }}
         run: |
           echo "$SUPER_SECRET"
 #      - name: Install dependencies
