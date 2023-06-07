@@ -53,10 +53,10 @@ jobs:
         env:
           SUPER_SECRET: ${{ secrets.SUPERSECRET }}
         run: >-
-          mkdir -p $HOME/.config/dart
+#          mkdir -p $HOME/.config/dart
           echo "$SUPER_SECRET" > $HOME/.config/dart/pub-credentials.json
-          cat $HOME/.config/dart/pub-credentials.json
-          rm -rf $HOME/.config/dart/pub-credentials.json
+#          cat $HOME/.config/dart/pub-credentials.json
+#          rm -rf $HOME/.config/dart/pub-credentials.json
 #      - name: Install dependencies
 #        run: flutter pub get
 #      - name: Publish
