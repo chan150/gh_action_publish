@@ -2,6 +2,7 @@ import 'dart:developer';
 
 class Mock{
   void doSomething(){
-    log('message');
+    log('message A');
+    log('message B');
   }
 }
