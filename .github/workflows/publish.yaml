@@ -53,8 +53,8 @@ jobs:
         with:
           env:
             SUPER_SECRET: ${{ secrets.SuperSecret }}
-          run: |
-            echo "$SuperSecret"
+        run: |
+          echo "$SuperSecret"
 #      - name: Install dependencies
 #        run: flutter pub get
 #      - name: Publish
